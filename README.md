@@ -44,11 +44,14 @@ dotfiles/
 
 ## Usage
 
-Each configuration file can be symlinked to your home directory. For example:
+Each configuration file can be symlinked to your home directory. 
+
+### Zsh
 
 ```bash
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.oh-my-zsh/custom ~/.oh-my-zsh/custom
+ln -s ~/.dotfiles/.p10k.zsh ~/.p10k.zsh
 ```
 
 ## Customization
