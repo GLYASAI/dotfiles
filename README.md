@@ -54,6 +54,12 @@ ln -s ~/.dotfiles/.oh-my-zsh/custom ~/.oh-my-zsh/custom
 ln -s ~/.dotfiles/.p10k.zsh ~/.p10k.zsh
 ```
 
+### Vim
+
+```bash
+ln -s ~/dotfiles/.vimrc ~/.vimrc
+```
+
 ## Customization
 
 Feel free to fork this repository and modify any configurations to match your preferences.
