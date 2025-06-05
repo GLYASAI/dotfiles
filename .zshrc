@@ -95,6 +95,15 @@ export EDITOR='vim'
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+# Golang Env
+export GOROOT=/usr/local/go
+export GOPATH=/Users/huangrunhao/go
+export GOPROXY=https://goproxy.io,direct
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+# brew
+export PATH=/opt/homebrew/bin:$PATH
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -108,12 +117,6 @@ alias image2df='docker run --rm --privileged -v /var/run/docker.sock:/var/run/do
 alias n='lima nerdctl'
 alias nerdctl='lima nerdctl'
 
-export GOROOT=/usr/local/go
-export GOPATH=/Users/huangrunhao/go
-export PATH=$PATH:$GOROOT/bin
-export PATH=$PATH:$GOPATH/bin
-export GOPROXY=https://goproxy.io,direct
-export HOMEBREW_NO_AUTO_UPDATE=true
 alias k=kubectl
 [[ $commands[kubectl] ]] && source <(kubectl completion zsh)
 alias k=kubectl
