@@ -97,7 +97,7 @@ export EDITOR='vim'
 
 # Golang Env
 export GOROOT=/usr/local/go
-export GOPATH=/Users/huangrunhao/go
+export GOPATH=$HOME/go
 export GOPROXY=https://goproxy.io,direct
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
