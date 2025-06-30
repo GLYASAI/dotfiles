@@ -51,6 +51,7 @@ Each configuration file can be symlinked to your home directory.
 ```bash
 brew install fzf
 brew install zoxide
+brew install blueutil
 
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.oh-my-zsh/custom ~/.oh-my-zsh/custom
