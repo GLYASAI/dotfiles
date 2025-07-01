@@ -130,3 +130,4 @@ source <(fzf --zsh)
 # Set up zoxide.
 eval "$(zoxide init zsh)"
 
+eval $(thefuck --alias)
